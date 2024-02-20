@@ -2,12 +2,11 @@
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 
-## LinearRegression.py: Simple Linear Regression Implementation
+## Simple Linear Regression Implementation
 
-This code implements a basic linear regression model from scratch using Python.
+Small Implementation of a basic linear regression model from scratch using Python.
 
 **Introduction**
-
 This code offers the following functionalities:
 
 - Custom `r2_score` function to calculate the R-squared value (coefficient of determination).
@@ -38,7 +37,7 @@ This code offers the following functionalities:
     predictions = model.predict(X_new)
 
 # Dependencies
--numpy
--sklearn (used for testing)
--matplotlib (used for testing)
+- numpy
+- sklearn (used for testing)
+- matplotlib (used for testing)
 
