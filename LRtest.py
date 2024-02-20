@@ -4,6 +4,12 @@ import matplotlib.pyplot as plt
 from LinearRegression import LinearRegression
 import numpy as np
 
+def r2_score(y_true, y_pred):
+    corr_matrix = np.corrcoef(y_true, y_pred)
+    corr = corr_matrix[0, 1]
+    return corr ** 2
+    
+
 n_features = 1
 X, y = make_regression(n_samples=100, n_features=1, noise=20, random_state=4)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
