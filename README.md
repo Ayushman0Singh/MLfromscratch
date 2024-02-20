@@ -38,7 +38,7 @@ This code offers the following functionalities:
     predictions = model.predict(X_new)
 
 # Dependencies
-numpy
-sklearn (used for testing)
-matplotlib.pyplot (used for testing)
+-numpy
+-sklearn (used for testing)
+-matplotlib (used for testing)
 
