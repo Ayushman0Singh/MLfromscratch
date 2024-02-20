@@ -30,7 +30,7 @@ This code offers the following functionalities:
 
    model = LinearRegression.LinearRegression(learning_rate=0.01, num_iterations=1000)
 
-2. **Fit and prediction Methods**
+2. **Use the Fit and predict Methods**
     ```python
     X_train, y_train = ...  # Your training data
     model.fit(X_train, y_train)
