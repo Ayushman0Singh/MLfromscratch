@@ -16,7 +16,6 @@ This code offers the following functionalities:
     - `predict` method to make predictions.
 - Testing script demonstrating usage:
     - Creates synthetic data.
-    - Splits data into training and testing sets.
     - Trains and fits the model.
     - Makes predictions and evaluates performance.
     - Visualizes results.
