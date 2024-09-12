@@ -25,9 +25,9 @@ This code offers the following functionalities:
 1. **Import and initialize:**
 
    ```python
-   import LinearRegression
+   from regression import LinearRegression
 
-   model = LinearRegression.LinearRegression(learning_rate=0.01, num_iterations=1000)
+   model = LinearRegression(learning_rate=0.001, num_iterations=1000)
 
 2. **Use the Fit and predict Methods**
     ```python
