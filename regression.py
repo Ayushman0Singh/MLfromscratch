@@ -14,14 +14,14 @@ class BaseRegression:
         n_samples,n_features = X.shape
         
 
-        for i in range(self.num_iterations):
+        for i in range(self.num_iterations): # applying gradient descent for num_iterations
 
             pred = self._approximation(X,self.weights,self.bias)
             
             dw = (1/n_samples) * np.dot(pred-y, X)
             self.weights = self.weights - dw*self.learning_rate # weight adjustment
 
-            db =  (1/n_samples) * np.sum(pred - y)
+            db =  (1/n_samples) * np.sum(pred - y) 
             self.bias = self.bias - db*self.learning_rate
 
     def predict(self, X):
