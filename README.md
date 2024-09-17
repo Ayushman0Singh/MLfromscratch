@@ -3,7 +3,7 @@
 </div>
 
 ## ML Implementations from scratch
-Small Implementation of a linear regression, logistic regression and Decision tree model from scratch using Python.
+Small Implementation of linear regression, logistic regression and Decision tree model from scratch using Python.
 
 **Introduction**
 This code offers the following functionalities:
