@@ -2,9 +2,8 @@
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 
-## Simple Linear Regression Implementation
-
-Small Implementation of a basic linear regression model from scratch using Python.
+## ML Implementations from scratch
+Small Implementation of a linear regression, logistic regression and Decision tree model from scratch using Python.
 
 **Introduction**
 This code offers the following functionalities:
